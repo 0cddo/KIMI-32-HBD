@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+/* header */
+header {
+    background-color: black;
+    height: 100px;
+    margin: 0;
+}
+
+/* menu */
+.menu{
+    background-color: green;
+    text-align: center;
+}
+
+.menu > ul li {
+    list-style: none;
+    display: inline-block;
+    height: 30px;
+
+    padding: 20px;
+}
+
+li a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+
+}
